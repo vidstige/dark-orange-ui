@@ -1,11 +1,12 @@
-body, input {
+body, input, button {
     background: #353535;
     color: #e2e2e2;
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input {
+input, button, textarea {
+    padding: 6px 12px;
     outline: none;
     border: 1px solid #1f1f1f;
     border-radius: 4px;
