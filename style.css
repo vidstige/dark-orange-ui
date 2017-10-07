@@ -5,11 +5,22 @@ body, input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input[type=text] {
+input {
     outline: none;
     border: 1px solid #1f1f1f;
     border-radius: 4px;
-    background: #333333;
+    /*background: #333333;*/
+    background: linear-gradient(#303030, #3c3c3c);
+    box-shadow: inset 1px 3px 6px 0px #282828;
+}
+
+input:active {
+}
+
+input[type=text] {
+}
+
+input[type=submit] {
 }
 
 input:focus {
