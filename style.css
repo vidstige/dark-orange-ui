@@ -10,7 +10,6 @@ input, button, textarea {
     outline: none;
     border: 1px solid #1f1f1f;
     border-radius: 4px;
-    /*background: #333333;*/
     background: linear-gradient(#303030, #3c3c3c);
     box-shadow: inset 1px 3px 6px 0px #282828;
 }
@@ -18,13 +17,16 @@ input, button, textarea {
 input:active {
 }
 
-input[type=text] {
+input[type=text], textarea {
 }
 
-input[type=submit] {
+input[type=submit], button {
+    color: #353535;
+    background: linear-gradient(rgb(222, 137, 78), rgb(216, 117, 55));
+    box-shadow: none;
 }
 
-input:focus {
+input:focus, button:focus {
     outline-color: orange;
     border: 1px solid orange;
 }
