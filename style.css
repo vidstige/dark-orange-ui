@@ -1,0 +1,18 @@
+body, input {
+    background: #353535;
+    color: #e2e2e2;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=text] {
+    outline: none;
+    border: 1px solid #1f1f1f;
+    border-radius: 4px;
+    background: #333333;
+}
+
+input:focus {
+    outline-color: orange;
+    border: 1px solid orange;
+}
