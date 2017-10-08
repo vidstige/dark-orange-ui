@@ -8,10 +8,10 @@ body, input, button, textarea {
 input, button, textarea {
     padding: 6px 12px;
     outline: none;
-    border: 1px solid #1f1f1f;
+    border: 1px solid #282828;
     border-radius: 6px;
     background: linear-gradient(#303030, #3c3c3c);
-    box-shadow: inset 1px 3px 6px 0px #282828;
+    box-shadow: inset 1px 3px 6px 0px #282828, 1px 1px 3px #282828;
 }
 
 input[type=text], textarea {
