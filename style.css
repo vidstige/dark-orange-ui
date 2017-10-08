@@ -17,6 +17,28 @@ input, button, textarea {
 input[type=text], textarea {
 }
 
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=checkbox] {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+}
+
+input[type=checkbox]:hover {
+    background: rgba(255,255,255, 0.05);
+}
+
+input[type=checkbox]:checked {
+    background: linear-gradient(rgb(222, 137, 78), rgb(216, 117, 55));
+    box-shadow: 1px 2px 3px #282828;
+}
+
 input[type=submit], button {
     color: #353535;
     background: linear-gradient(rgb(222, 137, 78), rgb(216, 117, 55));
