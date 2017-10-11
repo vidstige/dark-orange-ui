@@ -56,6 +56,13 @@ input:hover, textarea:hover {
     background: rgba(255,255,255, 0.05);
 }
 
+a {
+    color: #ea8443;
+}
+a:hover {
+    color: #f5995d;
+}
+
 ::selection {
     color: #353535;
     background: #ea8443;
