@@ -52,10 +52,6 @@ input[type=submit]:active, button:active, input[type=checkbox]:active {
     box-shadow: inset 1px 2px 3px 0px #282828;
 }
 
-input:hover, textarea:hover {
-    background: rgba(255,255,255, 0.05);
-}
-
 a {
     color: #ea8443;
 }
