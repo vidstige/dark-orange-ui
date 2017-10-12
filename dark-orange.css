@@ -1,11 +1,13 @@
 /* Licensed under the MIT/X11 License (http://opensource.org/licenses/MIT) */
 /* Made by Samuel Carlsson <samuel.carlsson@gmail.com> */
 
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
 body, input, button, textarea {
     background: #353535;
     color: #b2b2b2;
     font-size: 24px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 input, button, textarea {
