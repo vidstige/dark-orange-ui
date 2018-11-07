@@ -69,7 +69,41 @@ a:hover {
     background: #ea8443;
 }
 
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none
+}
+
+progress::-webkit-progress-bar {
+    outline: none;
+    border: 1px solid #282828;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress {
+    background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%);
+    color: #ea8443;
+}
+
+progress::-webkit-progress-value {
+    outline: none;
+    border-radius: 8px;
+
+    background: #ea8443;
+    background-image:
+        -webkit-linear-gradient(-45deg, 
+                            transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                            rgba(0,0, 0, .1) 66%, transparent 66%);
+    
+}
+
 /*input:focus, button:focus {
     outline-color: orange;
     border: 1px solid orange;
 }*/
+
